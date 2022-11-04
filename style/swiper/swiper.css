@@ -1,0 +1,8 @@
+.swiper {
+    width: 1002px;
+    height: 346px;
+}
+
+.swiper-button-next,.swiper-button-prev{
+    z-index: 1000;
+}
