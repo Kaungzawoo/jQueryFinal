@@ -4,5 +4,17 @@
 }
 
 .swiper-button-next,.swiper-button-prev{
-    z-index: 1000;
+    z-index: 11;
+    /* width: calc(var(--swiper-navigation-size)/ 44 * 27);
+    height: var(--swiper-navigation-size); */
+    opacity: 0.3;
+}
+
+.swiper-button-next:hover,.swiper-button-prev:hover{
+    opacity: 1;
+}
+
+:root{
+    --swiper-navigation-size:25px;
+    --swiper-theme-color: #00cc99;
 }

@@ -96,7 +96,7 @@ body{
 
 .dropDown_open{
     position: absolute;
-    z-index: 10000;
+    z-index: 10;
 }
 
 .dropDown_open a{
@@ -118,7 +118,7 @@ body{
     color: #fff;
     font-size: 36px;
     line-height: 48px;
-    z-index: 999;
+    z-index: 9;
 }
 .swiper_bg{
     position: absolute;
@@ -128,7 +128,7 @@ body{
     opacity: 0.4;
     width: 1002px;
     height: 150px;
-    z-index:998;
+    z-index:8;
 }
 .swiperImg{
     position: absolute;
