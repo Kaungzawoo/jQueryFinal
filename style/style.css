@@ -103,6 +103,10 @@ body{
     background: #fff;
     width: 94px;
 }
+.dropDown_open a:hover{
+    background: #00cc99;
+    color:#fff;
+}
 
 /* header */
 .header{
